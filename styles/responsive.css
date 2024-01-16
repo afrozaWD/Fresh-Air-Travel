@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px) {
+    .header-section{
+        flex-direction: column;
+        margin-right: 50px; 
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    #banner-text{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    
+}
+
+
+

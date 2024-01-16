@@ -71,19 +71,116 @@ font-style: normal;
 font-weight: 400;
 line-height: 26px;
 }
-.common-btn{
+.btn{
+    display: flex;
+    justify-content: space-between;
+    border: 0;
     padding: 20px 30px;
+}
+.go{
+    padding: 10px 20px;
     border-radius: 8px;
-    text-align: center;
-    color: #FFF;
-    font-size: 25px;
-    font-weight: 600;
-    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
     border: 0;
 }
-.btn{
+.when{
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    border: 0;   
+}
+.type{
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    border: 0;
+}
+.find{
+    padding: 10px 20px;
+    border-radius: 8px;
     background-color: #FF5400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    border: 0;
 }
 
+/*plan section*/
+.plan-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 
+}
+.plan-text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.plan-text>li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 15px;
+    margin-right: 30px;
+}
+.read{
+    border-radius: 8px;
+    background-color: #FF5400;
+    padding: 20px 25px;
+    font-size: 25px;
+    border: 0;
+}
+.plan-section-img{
+    width: 50%;
+}
+.plan-section-img>img{
+    width: 100%;
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* destination section*/
+.destination-section{
+    max-width: 1250px;
+    position: absolute;
+}
+.text-destination{
 
+}
+.destination-heading{
+text-align: center;
+padding: 20px 25px;
+font-weight: 800;
+font-size: 40px;
+}
+#destination-desc{
+    text-align: center;
+   padding: 20px 25px;
+   font-weight: 400;
+   font-size: 15px;
+}
+
+.destination-img{
+    display: flex;
+    margin-bottom: 13px;
+    gap: 15px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
