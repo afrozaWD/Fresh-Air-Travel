@@ -10,10 +10,33 @@
         width: 100%;
     }
     .btn{
+        flex-direction: column;
         width: 100%;
+    }
+    .destination-img{
+        flex-direction: column;
     }
     
 }
 
-
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .header-section{
+        flex-direction: column;
+        margin-right: 50px; 
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    #banner-text{
+        width: 100%;
+    }
+    .btn{
+        flex-direction: column;
+        width: 100%;
+    }
+    .destination-img{
+        flex-direction: column;
+    }
+    
+}
 
